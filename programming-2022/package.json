@@ -1,0 +1,36 @@
+{
+  "name": "cinemaprototype",
+  "version": "1.0.0",
+  "description": "my online cinema prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "testserver",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniversalCorn/Programming-3year-IP94-Lazarenko-Nikita"
+  },
+  "keywords": [
+    "db",
+    "database",
+    "grocery",
+    "online-shop"
+  ],
+  "author": "UniversalCorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UniversalCorn/Programming-3year-IP94-Lazarenko-Nikita"
+  },
+  "homepage": "https://github.com/UniversalCorn/Programming-3year-IP94-Lazarenko-Nikita#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.18",
+    "sqlite3": "^5.0.0"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}
