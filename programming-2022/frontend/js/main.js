@@ -11,7 +11,6 @@ const HOST = 'http://127.0.0.1:80';
 const getMovies = async () => {
   const result = await fetch(`${HOST}/products`);
   const json = await result.json();
-  console.log(json);
   movies = json;
   return json;
 }
@@ -104,10 +103,8 @@ regButton.addEventListener('click', async () => {
   });
 
   const data = await result.text();
-  console.log(data);
 
   const result1 = await fetch(`${HOST}/users`);
   const json1 = await result1.json();
-  console.log(json1);
 
 });
