@@ -124,7 +124,6 @@ const start = app => {
   /* watchlist */
   app.post('/watchlist', async (req, res) => {
     const body = req.body;
-    console.log(body);
     const watchlist = { id: null, user: body.user, product: body.product }
     const result = await Queries.WatchlistQueries.add(watchlist);
     return res.send(result);
